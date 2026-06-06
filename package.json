@@ -1,0 +1,14 @@
+{
+  "name": "discord-webhook-forwarder",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "restart": "./restart.sh"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
